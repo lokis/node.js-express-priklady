@@ -10,5 +10,9 @@
     "express": "3.0.x",
     "express-resource": "1.0.x",
     "mongoose": "^3.8.19"
+  },
+  "devDependencies": {
+    "generator-angular-fullstack": "^2.0.13",
+    "generator-express": "^2.3.0"
   }
 }
