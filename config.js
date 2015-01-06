@@ -3,7 +3,7 @@ var mongoose = require('mongoose');
 
 exports.configure = function (app) {
     app.configure(function () {
-        //app.use(logger('dev'));
+        app.use(logger('dev'));
         app.use(express.bodyParser());
         app.use(express.methodOverride());
         app.use(express.static(process.cwd() + '/public'));

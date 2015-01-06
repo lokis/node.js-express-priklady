@@ -1,5 +1,6 @@
-var express = require('express'), resource = require('express-resource')
-    , mongoose = require('mongoose');
+var express = require('express');
+var resource = require('express-resource');
+var mongoose = require('mongoose');
 var config = require('./config');
 
 var app = express();
@@ -12,10 +13,7 @@ config.connect(app);
 //controllery
 var PageController = require('./app/controllers/PageController');
 
-//modely
-var Page = require('./app/models/Page');
-
 //API stranky
-app.resource('pages', PageController, { base: '/api/', load: Page.findOneByUrl });
+app.resource('pages', PageController, {base: '/api/', load: Page.findOneByUrl});
 
 app.listen(process.env.PORT || 3000);

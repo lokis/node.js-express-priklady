@@ -6,6 +6,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "bower": "^1.3.12",
     "debug": "~2.0.0",
     "express": "3.0.x",
     "express-resource": "1.0.x",

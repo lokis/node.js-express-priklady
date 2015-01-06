@@ -1,0 +1,6 @@
+{
+  "directory": "public/bower_components",
+  "interactive": false,
+  "proxy": "http://proxy.ccs.cz:3128/",
+  "https-proxy": "http://proxy.ccs.cz:3128/"
+}
