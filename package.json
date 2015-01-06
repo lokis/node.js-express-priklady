@@ -1,5 +1,5 @@
 {
-  "name": "Express-zkouseni",
+  "name": "express-zkouseni",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,8 +7,8 @@
   },
   "dependencies": {
     "debug": "~2.0.0",
-    "express": "~4.9.0",
-    "express-resource": "^1.0.0",
+    "express": "3.0.x",
+    "express-resource": "1.0.x",
     "mongoose": "^3.8.19"
   }
 }
